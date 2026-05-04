@@ -1,0 +1,4 @@
+Modèle,ROC-AUC,F1 macro,F1 micro,F1 weighted,Précision macro,Recall macro,Latence (ms/ex),Paramètres,auc_per_label
+LSTM,0.9741,0.3799,0.7245,0.6913,0.408,0.3556,1.376,3904454,"{'toxic': np.float64(0.9776), 'severe_toxic': np.float64(0.9876), 'obscene': np.float64(0.9894), 'threat': np.float64(0.9438), 'insult': np.float64(0.9849), 'identity_hate': np.float64(0.9615)}"
+BiLSTM,0.9771,0.4068,0.741,0.71,0.4854,0.3774,3.445,4013774,"{'toxic': np.float64(0.9808), 'severe_toxic': np.float64(0.9896), 'obscene': np.float64(0.9924), 'threat': np.float64(0.9461), 'insult': np.float64(0.986), 'identity_hate': np.float64(0.9675)}"
+CNN,0.9755,0.4596,0.7506,0.7251,0.6275,0.4388,5.139,4237062,"{'toxic': np.float64(0.9704), 'severe_toxic': np.float64(0.9887), 'obscene': np.float64(0.9907), 'threat': np.float64(0.9559), 'insult': np.float64(0.9817), 'identity_hate': np.float64(0.9654)}"
